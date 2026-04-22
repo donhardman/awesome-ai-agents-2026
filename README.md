@@ -1,672 +1,618 @@
-<!--lint disable awesome-heading awesome-github awesome-toc -->
-
 <div align="center">
-  <img src="assets/banner.svg" alt="Awesome AI Agents 2026" width="800">
-  <br><br>
 
-  [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-  [![Stars](https://img.shields.io/github/stars/caramaschiHG/awesome-ai-agents-2026?style=flat-square&color=yellow)](https://github.com/caramaschiHG/awesome-ai-agents-2026/stargazers)
-  [![Last Update](https://img.shields.io/badge/last%20update-April%202026-blue?style=flat-square)]()
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/)
+# 🤖 Awesome AI Agents 2026
 
-  <h3>The most comprehensive list of AI agents, frameworks, and tools in 2026.</h3>
-  <h4>340+ resources across 20+ categories. Updated monthly.</h4>
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/awesome-ai-agents-2026?style=social)](https://github.com/Zijian-Ni/awesome-ai-agents-2026)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue.svg)](#)
+[![Resources](https://img.shields.io/badge/Resources-230%2B-orange.svg)](#)
+[![Categories](https://img.shields.io/badge/Categories-17-purple.svg)](#)
 
-  <br>
+**The definitive curated list of AI models, agent frameworks, tools, protocols, and resources for 2026 — the year agents went mainstream and AI became infrastructure.**
 
-  <a href="#-coding-agents">Coding</a> · <a href="#-agent-frameworks">Frameworks</a> · <a href="#-browser--desktop-agents">Browser</a> · <a href="#-voice-agents">Voice</a> · <a href="#-creative-ai">Creative</a> · <a href="#-task--workflow-agents">Workflow</a> · <a href="#-customer-support--crm-agents">CRM</a> · <a href="#-data--research-agents">Research</a> · <a href="#-local--self-hosted-ai">Self-Hosted</a> · <a href="#-protocols--standards">Protocols</a>
+*Covering foundation models, multimodal AI, agent protocols (MCP/A2A), coding agents, computer use, generative AI, and more.*
+
+[Foundation Models](#-foundation-models-2026) · [Multimodal AI](#-multimodal--generative-ai) · [Protocols](#-agent-protocols--standards) · [Frameworks](#️-agent-frameworks) · [Memory](#-agent-memory) · [Tools](#-tool--api-integration) · [Security](#️-agent-security) · [RAG](#-rag--knowledge) · [Coding](#-coding-agents) · [Computer Use](#️-computer-use--desktop-agents) · [Voice](#️-voice--multimodal-agents) · [Personal](#-personal-ai-agents) · [Enterprise](#-enterprise-agent-platforms) · [Evaluation](#-agent-evaluation--observability) · [Research Tools](#-ai-research-tools) · [Learning](#-learning-resources) · [Notable 2026](#-notable-agent-projects-of-2026) · [Timeline](#-2026-ai-timeline)
 
 </div>
 
 ---
 
-> **340+ tools. 20+ categories. Updated monthly.** Star to stay updated. [Contributions welcome!](#contributing)
+## Quick Navigation
+
+| Category | Description | Count |
+|----------|-------------|-------|
+| [🧠 Foundation Models](#-foundation-models-2026) | Latest LLMs from OpenAI, Anthropic, Google, Meta, and 20+ providers | 65+ |
+| [🎨 Multimodal & Generative AI](#-multimodal--generative-ai) | Image, video, audio, and music generation | 20+ |
+| [🔗 Agent Protocols](#-agent-protocols--standards) | MCP, A2A, and interoperability standards | 10+ |
+| [🏗️ Agent Frameworks](#️-agent-frameworks) | Libraries for building autonomous AI agents | 20+ |
+| [🧠 Agent Memory](#-agent-memory) | Persistent memory and context management | 10+ |
+| [🔌 Tool & API Integration](#-tool--api-integration) | Connecting agents to external services | 15+ |
+| [🛡️ Agent Security](#️-agent-security) | Prompt injection defense and guardrails | 10+ |
+| [🔍 RAG & Knowledge](#-rag--knowledge) | Retrieval-augmented generation systems | 12+ |
+| [💻 Coding Agents](#-coding-agents) | AI-powered software engineering | 20+ |
+| [🖥️ Computer Use](#️-computer-use--desktop-agents) | Desktop automation and computer control | 12+ |
+| [🗣️ Voice & Multimodal Agents](#️-voice--multimodal-agents) | Voice-enabled conversational AI | 10+ |
+| [📱 Personal AI Agents](#-personal-ai-agents) | Productivity and daily life assistants | 10+ |
+| [🏢 Enterprise Platforms](#-enterprise-agent-platforms) | Enterprise-grade agent deployment | 12+ |
+| [📊 Evaluation & Observability](#-agent-evaluation--observability) | Testing, monitoring, and benchmarking | 12+ |
+| [🔬 AI Research Tools](#-ai-research-tools) | Tools for AI/ML research and experimentation | 10+ |
+| [📚 Learning Resources](#-learning-resources) | Papers, courses, and tutorials | 15+ |
 
 ---
 
 ## Contents
 
-- [GNAP](https://github.com/farol-team/gnap) — Git-Native Agent Protocol: coordinate AI agent teams with 4 JSON files in a git repo. No server, no database. Any agent that can git push can participate. MIT licensed.
-- [Coding Agents](#-coding-agents) — IDE, Terminal, Autonomous, Code Review, App Builders
-- [Agent Frameworks](#-agent-frameworks) — General, Multi-Agent, Lightweight
-- [Browser and Desktop Agents](#-browser--desktop-agents) — Consumer, Infrastructure
-- [Voice Agents](#-voice-agents) — Platforms, Open-Source
-- [Creative AI](#-creative-ai) — Image, Video, Music, 3D
-- [Task and Workflow Agents](#-task--workflow-agents) — Automation, No-Code Builders
-- [Customer Support and CRM Agents](#-customer-support--crm-agents)
-- [Data and Research Agents](#-data--research-agents) — Deep Research, Data Analysis, RAG
-- [Local and Self-Hosted AI](#-local--self-hosted-ai) — LLM Runners, Self-Hosted UIs
-- [Multi-Agent Platforms](#-multi-agent-platforms)
-- [Protocols and Standards](#-protocols--standards)
-- [Observability and Evaluation](#-observability--evaluation)
-- [Open-Source Models for Agents](#-open-source-models-for-agents)
-- [AI Safety and Guardrails](#-ai-safety--guardrails)
-- [AI Governance and Compliance](#-ai-governance--compliance) ⭐ NEW
-- [Cybersecurity Agents](#-cybersecurity-agents)
-- [Healthcare and Therapy Agents](#-healthcare-and-therapy-agents)
-- [Learning Resources](#-learning-resources)
-- [Newsletters and Communities](#-newsletters--communities)
-- [Market Stats 2026](#-market-stats-2026)
+- [🧠 Foundation Models 2026](#-foundation-models-2026)
+- [🎨 Multimodal & Generative AI](#-multimodal--generative-ai)
+- [🔗 Agent Protocols & Standards](#-agent-protocols--standards)
+- [🏗️ Agent Frameworks](#️-agent-frameworks)
+- [🧠 Agent Memory](#-agent-memory)
+- [🔌 Tool & API Integration](#-tool--api-integration)
+- [🛡️ Agent Security](#️-agent-security)
+- [🔍 RAG & Knowledge](#-rag--knowledge)
+- [💻 Coding Agents](#-coding-agents)
+- [🖥️ Computer Use & Desktop Agents](#️-computer-use--desktop-agents)
+- [🗣️ Voice & Multimodal Agents](#️-voice--multimodal-agents)
+- [📱 Personal AI Agents](#-personal-ai-agents)
+- [🏢 Enterprise Agent Platforms](#-enterprise-agent-platforms)
+- [📊 Agent Evaluation & Observability](#-agent-evaluation--observability)
+- [🔬 AI Research Tools](#-ai-research-tools)
+- [📚 Learning Resources](#-learning-resources)
+- [🌟 Notable Agent Projects of 2026](#-notable-agent-projects-of-2026)
+- [📅 2026 AI Timeline](#-2026-ai-timeline)
 
 ---
 
-## 🖥 Coding Agents
+## 🧠 Foundation Models 2026
 
-### IDE-Native Agents
+*The latest large language models powering the AI ecosystem, organized by company. 60+ models from 20+ providers.*
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Cursor](https://cursor.com) | VS Code fork. Composer mode for multi-file edits. Claude Sonnet 5, GPT-5, Gemini 3.1. $29.3B valuation. | Free / $20/mo |
-| [GitHub Copilot](https://github.com/features/copilot) | Agent Mode in VS Code. Copilot Workspace issue-to-PR. Multi-model (Claude, GPT-5.4, Gemini 3.1). | $10/mo / $39/mo Pro+ |
-| [Windsurf (Codeium)](https://windsurf.com) | Cascade agentic mode. Project-level memory. 5 parallel agents. | Free / $15/mo |
-| [JetBrains AI](https://www.jetbrains.com/ai/) | Deep integration across all JetBrains IDEs. Context-aware completions. | Included with IDE |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | AWS-native. Lambda, CloudWatch, infrastructure, security scanning. | Free / $19/mo |
-| [Tabnine](https://www.tabnine.com/) | Privacy-first. On-premise option. Fine-tuned on your codebase. | Free / $12/mo |
-| [Sourcegraph Cody](https://sourcegraph.com/cody) | Excels at large codebases. Enterprise context engine. | Free / $9/mo |
-| [Google Antigravity](https://idx.google.com) | Free Claude Opus 4.6 access. Learning-focused. | Free |
-| [Kiro](https://kiro.dev) | Spec-driven development. Write specs → auto-generate tasks → implement. DevOps automation. | Free beta |
+### OpenAI
 
-### Terminal and CLI Agents
+- [GPT-5.4](https://openai.com/) - 🆕 Released March 2026. OpenAI's most capable frontier model with 1M-token context, advanced coding, computer use, and tool search.
+- [GPT-5.3](https://openai.com/) - 🆕 Released early 2026. Includes GPT-5.3 Instant for conversations and GPT-5.3-Codex for coding tasks.
+- [GPT-5.2](https://openai.com/) - Released Dec 2025. State-of-the-art reasoning, long-context understanding, and vision.
+- [GPT-5](https://openai.com/index/gpt-5/) - Launched August 2025. The default model in ChatGPT, replacing GPT-4o. Multimodal with variants: gpt-5, gpt-5-mini, gpt-5-nano.
+- [GPT-4o](https://openai.com/index/gpt-4o/) - Omni model with native text, vision, and audio. Retired from ChatGPT Feb 2026 but still available via API.
+- [o3 / o4-mini](https://openai.com/index/introducing-o3-and-o4-mini/) - Reasoning models with chain-of-thought for complex problem solving. Released April 2025.
+- [Codex CLI](https://github.com/openai/codex) - Open-source terminal-based coding agent powered by OpenAI models. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic CLI agent. Best reasoning. 80.9% SWE-bench. Agent Teams feature. | $20/mo+ API |
-| [OpenAI Codex CLI](https://github.com/openai/codex) | OpenAI terminal agent. Agents SDK. Multi-agent. | ChatGPT sub |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ⭐ **NEW (Apr 2026)** Google's official open-source terminal agent. ReAct loop. MCP support. 1M context. Apache 2.0. | Free w/ Google account |
-| [Aider](https://github.com/paul-gauthier/aider) | OSS pair programmer. Git-aware. Any LLM. | Free + API |
-| [Cline](https://github.com/cline/cline) | VS Code extension. Full terminal and browser access for Claude/GPT. | Free + API |
-| [RooCode](https://github.com/RooVetGit/Roo-Code) | Cline fork. Structured modes. Reduced hallucinations. | Free + API |
-| [Kilo Code](https://kilocode.ai) | Structured modes. Tighter context. | Free + API |
-| [OpenCode](https://github.com/opencode-ai/opencode) | BYOK terminal agent for Cursor refugees. | Free + API |
-| [Caliber](https://github.com/caliber-ai-org/ai-setup) | CLI that fingerprints projects and generates/syncs AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md). Scores quality. | Free + API |
+### Anthropic
 
-### Autonomous Software Engineers
+- [Claude Opus 4.6](https://www.anthropic.com/) - 🆕 Released Feb 2026. 1M-token context, 14.5-hour task horizon, strongest sustained work capacity. Agent team capabilities.
+- [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) - 🆕 Released Feb 2026. Frontier coding and agentic performance, 1M token context window.
+- [Claude Opus 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Advanced reasoning and complex task execution.
+- [Claude Sonnet 4](https://www.anthropic.com/news/claude-4) - Released May 2025. Balanced performance and cost for a wide range of tasks.
+- [Claude Mythos Preview](https://www.anthropic.com/) - 🆕 April 2026 gated research preview for defensive cybersecurity applications.
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic coding tool operating directly in your terminal with 80.9% SWE-bench score.
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Devin](https://devin.ai) | Cognition. Fully autonomous. Sandboxed cloud env. Devin 2.0 with Interactive Planning. | $20/mo + ACU |
-| [Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | GitHub issue-to-PR agent. | Copilot sub |
-| [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) | Princeton. Resolves real GitHub issues autonomously. | Free (OSS) |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | OSS autonomous software engineer (ex-OpenDevin). | Free (OSS) |
-| [Grok Build (xAI)](https://x.ai) | 8 parallel agents for code gen. Multi-agent "Society of Mind" architecture. | xAI sub |
+### Google DeepMind
 
-### Code Review and Security
+- [Gemini 3.1 Pro](https://deepmind.google/technologies/gemini/) - 🆕 Released Feb 2026. Google's most capable model with advanced reasoning, adaptive thinking, and 1M token context.
+- [Gemini 3.1 Flash](https://deepmind.google/technologies/gemini/) - 🆕 Fast and efficient model for high-throughput applications.
+- [Gemini 3.1 Flash Lite](https://deepmind.google/technologies/gemini/) - 🆕 Released March 2026. Optimized for speed and cost-efficiency in high-volume tasks.
+- [Gemini 2.5 Pro](https://deepmind.google/technologies/gemini/) - Thinking model with 1M context, excels at code and multimodal tasks. GA June 2025.
+- [Gemini 2.5 Flash](https://deepmind.google/technologies/gemini/) - Versatile model balancing intelligence and latency. GA June 2025.
+- [Gemma 3](https://github.com/google-deepmind/gemma) - Open model family for on-device and research use. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=flat-square)
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Qodo](https://www.qodo.ai/) | AI code review. Context-aware PR validation. | Free / Enterprise |
-| [CodeRabbit](https://coderabbit.ai/) | AI PR reviewer. Inline suggestions, security. | Free OSS / $15/mo |
-| [Snyk Code](https://snyk.io/) | AI security scanner. Real-time vuln detection. | Free / Enterprise |
-| [PR-Agent](https://github.com/Codium-ai/pr-agent) | OSS AI PR reviewer. Auto-describe, review, improve. | Free (OSS) |
+### Meta
 
-### App Builders (Prompt-to-App)
+- [Llama 4 Scout](https://llama.meta.com/) - 109B total params (17B active), MoE with 16 experts, 10M token context window, multimodal. Runs on single H100.
+- [Llama 4 Maverick](https://llama.meta.com/) - 400B total params (17B active), 128 experts, 1M context. Outperforms GPT-4o on multimodal benchmarks.
+- [Llama 4 Behemoth](https://llama.meta.com/) - 🆕 2T parameters (288B active). In training — Meta's frontier model rivaling top closed-source models.
+- [Llama 3.3 70B](https://llama.meta.com/) - Strong instruction following and reasoning, open-weight under Llama Community License.
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Bolt.new](https://bolt.new) | Prompt to full-stack web app in browser. | Free / Paid |
-| [Lovable](https://lovable.dev) | Describe then build then deploy from chat. | Free / $20/mo |
-| [v0 (Vercel)](https://v0.dev) | Prompt to React/Tailwind components. | Free / Pro |
-| [Replit Agent](https://replit.com) | Full-stack from prompt. Auto-deploys. | Free / $25/mo |
-| [PlayCode Agent](https://playcode.io) | Browser-based. English to websites. | $9.99/mo |
-| [Dyad](https://github.com/dyad-sh/dyad) | OSS. Local-first. No-code app builder. | Free (OSS) |
+### Mistral AI
 
----
+- [Mistral Large 3](https://mistral.ai/news/mistral-3) - 675B total / 41B active parameters, MoE, 256K context. Flagship open-weight multimodal model. Released Dec 2025.
+- [Mistral Medium 3.1](https://mistral.ai/) - Frontier-class dense model for enterprise. Multimodal, 128K context, 80+ coding languages. Released Aug 2025.
+- [Mistral Small 4](https://mistral.ai/news/mistral-small-4) - 🆕 Released March 2026. 119B total / 6B active. Hybrid model combining reasoning, multimodal, and coding strengths.
+- [Magistral 1.2](https://mistral.ai/) - 🆕 2026 reasoning family challenging o3/o4-mini. Transparent and multilingual reasoning.
+- [Devstral 2](https://mistral.ai/) - 🆕 2026 agentic coding model. Best open-source model for coding agents.
+- [Codestral](https://mistral.ai/news/codestral) - 22B code generation model, 80+ programming languages, 32K context. Released May 2024.
+- [Pixtral Large](https://mistral.ai/) - 124B multimodal model with 1B vision encoder, 128K context, processes 30+ high-res images.
+- [Ministral 3B/8B/14B](https://mistral.ai/) - Compact models optimized for edge deployment and efficiency.
+- [Mistral Forge](https://mistral.ai/) - 🆕 March 2026 platform for training custom LLMs on proprietary data.
 
-## 🧱 Agent Frameworks
+### DeepSeek
 
-### General Purpose
+- [DeepSeek-V4](https://www.deepseek.com/) - 🆕 Released Feb 2026. Multimodal (text, image, video). "Engram memory architecture" for enhanced retention. Optimized for coding.
+- [DeepSeek-V3.2](https://www.deepseek.com/) - Released Dec 2025. Advanced MoE architecture with 671B total parameters. V3.2 Speciale variant for enhanced reasoning.
+- [DeepSeek-R2](https://www.deepseek.com/) - 🆕 2026 advanced reasoning model. Successor to R1, competes with GPT-5 and Gemini 3 Pro.
+- [DeepSeek-R1](https://www.deepseek.com/) - Reasoning-focused model with chain-of-thought capabilities. Released Jan 2025.
+- [DeepSeek-Coder-V2](https://github.com/deepseek-ai/DeepSeek-Coder-V2) - Code generation model competitive with GPT-4 on coding benchmarks. ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Coder-V2?style=flat-square)
 
-| Framework | Lang | Description |
-|-----------|------|-------------|
-| [LangChain](https://github.com/langchain-ai/langchain) | Py/JS | Most adopted. Modular architecture, memory, tools. |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Py/JS | Graph-based orchestration. Stateful directed graphs. |
-| [LlamaIndex](https://github.com/run-llama/llama_index) | Py/JS | Data-focused. Best for RAG agents. |
-| [Haystack](https://github.com/deepset-ai/haystack) | Py | Pipeline-based. Search and retrieval. |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | C#/Py/Java | Microsoft enterprise. Azure integration. |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Py | Type-safe. Clean Pythonic API. Production-ready. |
-| [DSPy](https://github.com/stanfordnlp/dspy) | Py | Stanford. Programming not prompting. Auto-optimizes. |
-| [Mastra](https://github.com/mastra-ai/mastra) | TS | TypeScript-first. Observational Memory. Apache 2.0. |
-| [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-python) | Py/TS | Official Claude SDK. Tool use, computer control, streaming. |
-| [Google ADK](https://github.com/google/adk-python) | Py | ⭐ Google's Agent Development Kit. Native Gemini. Multi-agent orchestration. |
+### Alibaba (Qwen)
 
-### Multi-Agent Orchestration
+- [Qwen3.5-Omni](https://qwen.ai/) - 🆕 March 2026. Fully omni-modal LLM — language, vision, sound, motion. Speech recognition in 113 languages, 256K context.
+- [Qwen3.5 Plus](https://qwen.ai/) - 🆕 Feb 2026. Native vision-language model, hybrid architecture, 1M token context.
+- [Qwen3-Max-Thinking](https://qwen.ai/) - 🆕 Alibaba's strongest model. 1T+ parameters, enhanced agentic capabilities.
+- [Qwen3-Coder-Next](https://qwen.ai/) - 🆕 Feb 2026. Open-weight coding agent model, MoE with 80B total / 3B active parameters.
+- [Qwen3 235B-A22B](https://qwen.ai/) - MoE with dual-mode reasoning (thinking/non-thinking). Strong math, code, and commonsense reasoning.
+- [Qwen2.5 Coder 32B](https://github.com/QwenLM/Qwen2.5-Coder) - Top open-source model for coding tasks. ![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Coder?style=flat-square)
 
-| Framework | Lang | Description |
-|-----------|------|-------------|
-| [AutoGen](https://github.com/microsoft/autogen) | Py | Microsoft multi-agent conversations. |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Py | Role-based crew members with goals and tools. Used by 60%+ Fortune 500. |
-| [MetaGPT](https://github.com/geekan/MetaGPT) | Py | PM, architect, engineer roles. Software company sim. |
-| [Miyabi](https://github.com/ShunsukeHayashi/Miyabi) | TS | Issue-Driven Development. 7 coding + 14 business agents. MCP 172+ tools. GitHub as OS. |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | Py | Official. Multi-step agents with handoffs. |
-| [Strands Agents](https://github.com/strands-agents/sdk-python) | Py | AWS-backed. Model-driven tool use. |
-| [CAMEL](https://github.com/camel-ai/camel) | Py | Role-based simulation. Collaborative reasoning. |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Py | Pioneer. Now full platform with visual builder. |
-| [Bernstein](https://github.com/chernistry/bernstein) | Py | Deterministic orchestrator. Parallel coding agents, test-driven verification. Zero LLM tokens on coordination. |
-| [AgentScope](https://github.com/modelscope/agentscope) | Py | Alibaba multi-agent framework. |
-| [MagiC](https://github.com/kienbui1995/magic) | Go/Py | Kubernetes for AI agents. Manages any agent from any framework. Routing, cost control, DAG workflows, circuit breaker. |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | Py | ByteDance. No.1 GitHub Trending Feb 2026. 25k+ stars. |
-| [AXME](https://github.com/AxmeAI/axme) | Py/TS/Go/Java/.NET | Durable coordination. Crash recovery, human approval gates, kill switch. Open protocol (AXP). |
+### xAI (Grok)
 
-### Lightweight / Minimalist
+- [Grok 4.20](https://x.ai/) - 🆕 Feb 2026 beta. Multi-agent system (4 standard + 16 specialized agents in Heavy mode), 2M token context.
+- [Grok 4 / 4 Heavy](https://x.ai/) - Released July 2025. 3T parameters. xAI's frontier model outperforming rivals on key benchmarks.
+- [Grok 3](https://x.ai/) - Released Feb 2025. First dedicated reasoning model with "Think Mode" for step-by-step logic.
+- [Grok 3 Mini](https://x.ai/) - Lightweight reasoning model for faster inference.
 
-| Framework | Lang | Description |
-|-----------|------|-------------|
-| [Smolagents](https://github.com/huggingface/smolagents) | Py | HuggingFace minimal agents. ~1000 lines. |
-| [Agno](https://github.com/agno-agi/agno) | Py | Lightweight, model-agnostic. |
-| [Upsonic](https://github.com/upsonic/upsonic) | Py | MCP support. Minimal setup. |
-| [Portia AI](https://github.com/portia-ai/portia-sdk-python) | Py | Reliable agents in production. |
-| [MicroAgent](https://github.com/aymenfurter/microagent) | Py | Self-editing prompts and code. |
+### Microsoft (Phi)
 
-### Agent Templates
+- [Phi-4-reasoning-vision-15B](https://www.microsoft.com/en-us/research/project/phi/) - 🆕 Released March 2026. 15B multimodal model with selective chain-of-thought reasoning. Edge-deployable.
+- [Phi-4](https://www.microsoft.com/en-us/research/project/phi/) - 14B parameter SLM with reasoning rivaling much larger models. Open-source under MIT License.
+- [Phi-4-mini](https://www.microsoft.com/en-us/research/project/phi/) - 3.8B parameter dense model. 128K context. Excels in reasoning, math, coding, and function-calling.
+- [Phi-4-multimodal](https://www.microsoft.com/en-us/research/project/phi/) - 5.6B parameter. First multimodal Phi model — integrates speech, vision, and text in unified architecture.
 
-| Collection | Description |
-|------------|-------------|
-| [OpenClaw Agent Templates](https://github.com/mergisi/awesome-openclaw-agents) | 177 production-ready SOUL.md configs across 24 categories (PM, SEO, DevOps, Writer, Support). Copy-paste ready for [OpenClaw](https://github.com/openclaw/openclaw). Visual deploy via [CrewClaw](https://crewclaw.com). |
+### Cohere
 
----
+- [Command A](https://cohere.com/) - 🆕 Released April 2026. 111B open-weights model, 256K context. Agentic, multilingual, and coding focused.
+- [Command R+](https://cohere.com/) - Enterprise RAG model, 128K context, multilingual (10 languages), grounded generation with citations.
+- [Command R](https://cohere.com/) - Cost-efficient model for retrieval-augmented generation and enterprise workloads.
 
-## 🌐 Browser and Desktop Agents
+### Baidu (ERNIE / 文心)
 
-### Consumer Products
+- [ERNIE 5.0](https://yiyan.baidu.com/) - 🆕 Released Jan 2026. 2.4T parameters MoE (activates <3% per query). Native full-modal. #1 Chinese model on LMArena.
+- [ERNIE 4.5](https://yiyan.baidu.com/) - Multimodal predecessor released 2025. Strong reasoning and Chinese language capabilities.
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [OpenAI Operator](https://operator.chatgpt.com) | ChatGPT autonomous web agent. Human checkpoints. CUA tech. | ChatGPT Pro |
-| [Manus (Meta)](https://manus.im) | Autonomous digital employee. Browser Operator extension. Acquired by Meta. | Free / Paid |
-| [Claude Computer Use](https://docs.anthropic.com/en/docs/agents-and-tools/computer-use) | Anthropic desktop/browser control via screenshots. | API |
-| [Claude in Chrome](https://claude.ai) | Anthropic browsing agent. Beta. | Claude sub |
-| [Google Project Mariner](https://deepmind.google/technologies/project-mariner/) | Gemini browser agent. Multi-tasking. | Waitlist |
-| [OpenAI Atlas](https://atlas.openai.com) | AI browser with Agent Mode. | ChatGPT sub |
-| [Dia Browser](https://diabrowser.com) | AI-native browser (Atlassian/Browser Company). | Beta |
-| [Fellou](https://fellou.ai) | Transparent. Visual workflow editing. Agentic memory. | Beta |
-| [Genspark](https://genspark.ai) | 169+ on-device models. No internet required. | Free / Paid |
-| [Grok Computer](https://x.ai) | ⭐ **Upcoming** xAI desktop agent. Mouse control, app automation. | TBA |
+### Zhipu AI / Z.ai (GLM)
 
-### Developer Infrastructure
+- [GLM-5](https://z.ai/) - 🆕 Released Feb 2026. 744B parameters, advanced agentic intelligence. Trained on Huawei Ascend chips. Open-source MIT license.
+- [GLM-5V-Turbo](https://z.ai/) - 🆕 Released April 2026. Native multimodal agent — vision, video clips, text inputs.
+- [GLM-4.7](https://z.ai/) - Released late 2025. Matches Claude Opus 4 on SWE-Bench. Strong coding capabilities.
 
-| Tool | Description |
-|------|-------------|
-| [Browser Use](https://github.com/browser-use/browser-use) | OSS browser agent library. Used by Manus. |
-| [Skyvern](https://github.com/Skyvern-AI/skyvern) | Vision-driven. GPT-4V navigation without coded selectors. |
-| [Agent S2 (Simular)](https://github.com/simular-ai/Agent-S) | OSS GUI automation framework. |
-| [MultiOn](https://multion.ai) | Reliable web automation API. CAPTCHA handling. |
-| [Browserbase](https://browserbase.com) | Cloud browser infra for agents. Headless at scale. |
-| [Airtop](https://airtop.ai) | Enterprise browser automation. AI integration. |
-| [Amazon Nova Act](https://aws.amazon.com/ai/nova/) | AWS browser automation. Enterprise reliability. |
-| [Plasmate](https://github.com/plasmate-labs/plasmate) | Headless browser compiling HTML to structured JSON (SOM). 17.5x compression, 13 MCP tools. First browser tool on MCP Registry. Rust, Apache-2.0. |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | MCP server for Playwright + AI agents. |
-| [onUI](https://github.com/onllm-dev/onUI) | OSS browser extension and MCP server for annotation-first UI pair programming with AI agents. Chrome, Edge, Firefox. Privacy-first, local only. |
+### MiniMax
 
----
+- [MiniMax-M2.7](https://www.minimax.io/) - 🆕 2026 flagship intelligent model with strong reasoning and coding capabilities.
+- [MiniMax-M1-80k](https://www.minimax.io/) - Open-weight hybrid-attention reasoning model. 456B parameters, 1M token context.
+- [Hailuo AI (Video)](https://hailuoai.video/) - Text/image-to-video generation with AI avatars, voiceovers, and character consistency.
 
-## 🎙 Voice Agents
+### Moonshot AI (Kimi)
 
-### Platforms and APIs
+- [Kimi K2.5](https://kimi.ai/) - 🆕 Released Jan-Feb 2026. 1T total / 32B active MoE. Native multimodal, Agent Swarm (up to 100 parallel sub-agents). Open-source.
+- [Kimi Code](https://kimi.ai/) - 🆕 Premium coding tier powered by K2.5, terminal-based developer workflows.
 
-| Platform | Description | Pricing |
-|----------|-------------|---------|
-| [ElevenLabs](https://elevenlabs.io) | Industry benchmark. Conv AI 2.0. RAG, multimodal, batch calling. 75ms. HIPAA. $11B. | Free / $5+/mo |
-| [Vapi](https://vapi.ai) | Developer-first. Low-latency, model-agnostic. | Usage-based |
-| [Bland AI](https://bland.ai) | Outbound call automation. CRM integration. SOC2/HIPAA. | Usage-based |
-| [Voiceflow](https://voiceflow.com) | No-code voice and chat builder. Drag-and-drop. | Free / $50+/mo |
-| [Synthflow](https://synthflow.ai) | No-code voice agents for SMBs. Templates. | From $29/mo |
-| [PolyAI](https://poly.ai) | Enterprise. Natural multi-turn. Hospitality/retail. | Enterprise |
-| [Retell AI](https://retellai.com) | Human-like voice agents. Multi-language. Telephony. | Usage-based |
-| [HeyGen](https://heygen.com) | Talking avatars. Voice cloning. Lip-sync translation. | From $24/mo |
-| [Synthesia](https://synthesia.io) | AI video avatars. 120+ languages. Enterprise. | From $22/mo |
-| [Deepgram](https://deepgram.com) | STT and TTS APIs. Sub-300ms latency. | Usage-based |
-| [AssemblyAI](https://assemblyai.com) | STT with diarization, sentiment, summarization. | Usage-based |
+### ByteDance (Doubao / 豆包)
 
-### Open-Source Voice
+- [Doubao-Seed-2.0 Pro](https://seed.bytedance.com/) - 🆕 Released Feb 2026. Frontier reasoning and complex agents. Competes with GPT-5.2 at ~90% lower cost.
+- [Doubao-Seed-2.0 Lite](https://seed.bytedance.com/) - 🆕 General production workloads. Balanced performance and efficiency.
+- [Doubao-Seed-2.0 Code](https://seed.bytedance.com/) - 🆕 Software development — code generation, debugging, and review.
+- [BAGEL](https://github.com/bytedance-seed/BAGEL) - 🆕 Open-source multimodal model for text, image, and video understanding and generation.
 
-| Tool | Description |
-|------|-------------|
-| [LiveKit Agents](https://github.com/livekit/agents) | OSS real-time voice/video AI agents. |
-| [Rasa](https://github.com/RasaHQ/rasa) | OSS conversational AI. Self-hosted. NLU training. |
-| [Pipecat](https://github.com/pipecat-ai/pipecat) | OSS voice and multimodal conversational AI. |
-| [Vocode](https://github.com/vocodedev/vocode-python) | OSS voice-based LLM agents. |
+### Amazon (Nova)
+
+- [Nova 2 Pro](https://aws.amazon.com/nova/) - 🆕 Amazon's most intelligent reasoning model. Text, image, video, speech input. Agentic coding and long-range planning.
+- [Nova 2 Lite](https://aws.amazon.com/nova/) - 🆕 Fast, cost-effective reasoning with 1M-token context. Adjustable "thinking effort" controls.
+- [Nova 2 Sonic](https://aws.amazon.com/nova/) - 🆕 Speech-to-speech model for real-time conversational AI. 1M token context, multilingual.
+- [Nova Act](https://aws.amazon.com/nova/) - 🆕 Browser-based AI agent service for web task automation. Powered by Nova 2 Lite.
+- [Nova Forge](https://aws.amazon.com/nova/) - 🆕 "Open training" service for building custom Nova model variants with proprietary data.
+
+### NVIDIA (Nemotron)
+
+- [Nemotron 3 Ultra](https://developer.nvidia.com/nemotron) - 🆕 Released March 2026 (GTC). Frontier-level reasoning, 5x throughput efficiency on Blackwell platform.
+- [Nemotron 3 Super](https://developer.nvidia.com/nemotron) - 🆕 Released March 2026. 120B total / 12B active. 1M context. 5x higher throughput vs predecessor.
+- [Nemotron 3 Nano](https://developer.nvidia.com/nemotron) - Cost-efficient hybrid Transformer-Mamba MoE. Optimized for targeted agentic tasks.
+
+### Apple
+
+- [Apple Foundation Models (AFM)](https://machinelearning.apple.com/research/introducing-apple-foundation-models) - On-device (~3B) and server-based models powering Apple Intelligence. Privacy-first, offline capable.
+- [OpenELM](https://machinelearning.apple.com/research/openelm) - Open-source efficient language models (270M–3B). Designed for on-device processing on Apple silicon.
+
+### Samsung
+
+- [Samsung Gauss 2.3](https://www.samsung.com/) - 🆕 2026 on-device AI model for Galaxy S26. Includes Gauss 2.3 Think and Gauss O Flash variants. Agentic AI capable.
+
+### Inflection AI
+
+- [Inflection 2.5 / Pi](https://inflection.ai/) - Empathetic conversational AI model. Known for emotional intelligence and human-centered interactions.
+
+### 01.AI
+
+- [Yi-Lightning](https://www.01.ai/) - MoE architecture, 200+ tokens/s on RTX 4090. Strong multilingual (Chinese/English), open-source Apache 2.0. Released Oct 2024.
 
 ---
 
-## 🎨 Creative AI
+## 🎨 Multimodal & Generative AI
+
+*Tools and models for generating and editing images, videos, audio, and music.*
 
 ### Image Generation
 
-| Tool | Description | Pricing |
-|------|-------------|---------|
-| [Midjourney v7](https://midjourney.com) | Best artistic quality. Unmatched aesthetics. Discord + web. | From $10/mo |
-| [DALL-E 3.5](https://openai.com/dall-e) | Best prompt comprehension. 95% text accuracy. ChatGPT. | ChatGPT Plus |
-| [FLUX 2](https://blackforestlabs.ai) | Open-weight. Best photorealism. 4K. 6x speed. | Free / API |
-| [Stable Diffusion 3.5](https://stability.ai) | Open-source. ControlNet, LoRAs, ComfyUI ecosystem. | Free (OSS) |
-| [Adobe Firefly 3](https://firefly.adobe.com) | Licensed data only. Commercial indemnification. Photoshop. | Adobe CC |
-| [Google Imagen 4](https://deepmind.google) | State-of-art photorealism. API via AI Studio. | API |
-| [Ideogram v3](https://ideogram.ai) | Best text-in-image. Zero spelling errors. Logos/posters. | Free / $7+/mo |
-| [Leonardo AI](https://leonardo.ai) | Multi-model. Realtime Canvas. 3D gaming assets. Canva-owned. | Free / $12+/mo |
-| [Recraft](https://recraft.ai) | Design-focused. Vector art, brand consistency. | Free / Paid |
-| [InkOS](https://github.com/Narcooo/inkos) | Autonomous novel-writing CLI agent. Agents collaborate to produce long-form fiction with continuity auditing, anti-AI-slop filtering, and style cloning. | Free / OSS |
+- [DALL·E 3](https://openai.com/dall-e-3) - OpenAI's text-to-image model integrated with ChatGPT for iterative refinement.
+- [GPT-Image-1](https://openai.com/) - 🆕 OpenAI's latest image generation model via API.
+- [Midjourney V7](https://www.midjourney.com/) - 🆕 Leading AI art generation with photorealistic and artistic capabilities.
+- [Stable Diffusion 3.5](https://stability.ai/) - Open-source image generation with improved coherence and prompt following.
+- [Flux](https://github.com/black-forest-labs/flux) - 🆕 Black Forest Labs' open-source image model with state-of-the-art quality. ![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=flat-square)
+- [Ideogram 3.0](https://ideogram.ai/) - 🆕 Excels at text rendering in images and design-oriented generation.
+- [Gemini 3 Pro Image](https://deepmind.google/technologies/gemini/) - 🆕 Google's native image generation within Gemini, supporting editing and creation.
+- [Recraft V3](https://www.recraft.ai/) - 🆕 Design-focused AI image generation for professional graphics.
 
 ### Video Generation
 
-| Tool | Description | Pricing |
-|------|-------------|---------|
-| [Google Veo 3.1](https://deepmind.google) | ⭐ **Best in class** Native audio+video. 4K. Veo 3.1 Lite for devs (Apr 2026). | API |
-| [Kling 3.0](https://klingai.com) | ⭐ Cinematic realism. 15s sequences. Native audio sync. Character consistency. | Free / $6.99+/mo |
-| [Runway Gen-4.5](https://runwayml.com) | No.1 benchmark. Motion Brush, Director Mode. Best editing. | From $12/mo |
-| [Sora 2](https://sora.com) | OpenAI. Narrative coherence. Physics realism. **Note: app retiring Apr 26, 2026.** | $20+/mo |
-| [Seedance 2.0](https://seedance.ai) | Quad-modal input. Lip sync. 2K resolution. | Free credits |
-| [Pika 2.5](https://pika.art) | Beginner-friendly. Pikaswaps. Fast renders. | Free / $8+/mo |
-| [Luma Dream Machine](https://lumalabs.ai) | 4K HDR. Physics simulation. 3D/cinematic. | From $7.99/mo |
-| [HaiLuo AI](https://hailuoai.video) | Budget video. 10 free/day. MiniMax. | Free / $4.99+/mo |
-| [Wan 2.1](https://github.com/Wan-Video/Wan2.1) | Best free OSS video gen. Self-hostable. No limits. | Free (OSS) |
-| [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) | Tencent OSS. Consumer GPU. Multi-style. | Free (OSS) |
-| [LTX Video](https://github.com/Lightricks/LTX-Video) | OSS. Licensed data. Clear commercial terms. | Free (OSS) |
+- [Kling VIDEO 3.0](https://kling.ai/) - 🆕 By Kuaishou. Realistic human motion, lip-sync, narrative production with audio sync. Up to 15s videos.
+- [Hailuo AI](https://hailuoai.video/) - 🆕 By Minimax. Text/image-to-video with AI avatars, voiceovers, and character consistency.
+- [Veo 2](https://deepmind.google/technologies/veo/) - 🆕 Google DeepMind's video generation model with high fidelity and coherence.
+- [Runway Gen-4](https://runwayml.com/) - 🆕 Professional video generation and editing with character and style consistency.
+- [Pika 2.0](https://pika.art/) - 🆕 Creative video generation with scene and effects control.
+- [LTX Studio](https://ltx.studio/) - 🆕 AI-powered cinematic video creation platform.
+- [Sora](https://openai.com/sora/) - ⚠️ *Discontinued April 2026.* OpenAI's text-to-video model, shut down due to costs and strategic pivot.
 
-### Music and Audio
+### Audio & Music
 
-| Tool | Description | Pricing |
-|------|-------------|---------|
-| [Suno](https://suno.ai) | Text-to-song. Full tracks with vocals. Viral hit maker. | Free / $8+/mo |
-| [Udio](https://udio.com) | High-fidelity music gen. Fine control. | Free / $10+/mo |
-| [ElevenLabs Music](https://elevenlabs.io) | Vocals, instrumentals. Sectional editing. Stem separation. | Plan included |
-| [Stable Audio](https://stableaudio.com) | High-quality. Commercial license. | Free / Paid |
-| [Meta AudioCraft](https://github.com/facebookresearch/audiocraft) | OSS. MusicGen + AudioGen. | Free (OSS) |
-
-### 3D and Design
-
-| Tool | Description | Pricing |
-|------|-------------|---------|
-| [Meshy](https://meshy.ai) | Text/image to 3D. Game assets, products. | Free / Paid |
-| [Tripo AI](https://tripo3d.ai) | Fast 3D from text/images. Multi-format export. | Free / Paid |
-| [Vizcom](https://vizcom.ai) | Real-time AI rendering for industrial designers. | From $20/mo |
+- [ElevenLabs](https://elevenlabs.io/) - Industry-leading AI voice synthesis, cloning, and conversational AI.
+- [Suno V4](https://suno.com/) - 🆕 AI music generation from text prompts with high-quality vocals and instruments.
+- [Udio](https://www.udio.com/) - 🆕 Text-to-music generation with professional audio quality.
+- [OpenAI Audio Models](https://openai.com/) - Native audio understanding and generation within GPT-4o.
+- [Stability Audio](https://stability.ai/) - Open-source audio and music generation.
+- [Bark](https://github.com/suno-ai/bark) - Open-source text-to-audio model supporting speech, music, and sound effects. ![GitHub stars](https://img.shields.io/github/stars/suno-ai/bark?style=flat-square)
 
 ---
 
-## ⚡ Task and Workflow Agents
+## 🔗 Agent Protocols & Standards
 
-### Automation
+*Open standards enabling agent interoperability, tool access, and cross-platform communication.*
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [n8n](https://github.com/n8n-io/n8n) | OSS workflow automation with AI agent nodes. Visual + code. | Free / Cloud |
-| [Zapier AI](https://zapier.com/ai) | 7000+ apps. Natural language workflows. | From $19.99/mo |
-| [Make](https://make.com) | Visual workflow platform. AI capabilities. | Free / Paid |
-| [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative with AI. | Free (OSS) |
-| [Temporal](https://github.com/temporalio/temporal) | Durable execution for long-running agent workflows. | Free / Cloud |
-| [Mission Control](https://github.com/MeisnerDan/mission-control) | Cockpit for the agentic era — manage AI agent swarms with autonomous daemon, Field Ops for real-world execution, and approval workflows. | Free (OSS) |
+- [Octomind](https://github.com/muvon/octomind) - Open-source, model-agnostic AI agent runtime with community-built specialist agents (developer, medical, legal, DevOps), MCP support, and zero-config setup.
+### Model Context Protocol (MCP)
 
-### No-Code Agent Builders
+- [MCP Specification](https://modelcontextprotocol.io/) - 🆕 The "USB-C for AI" — open protocol by Anthropic for connecting LLMs to tools and data sources. Donated to Agentic AI Foundation (Linux Foundation) in Dec 2025.
+- [MCP Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations of MCP servers for popular services. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP clients and servers. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/typescript-sdk?style=flat-square)
+- [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for MCP implementation. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk?style=flat-square)
+- [mcp.so](https://mcp.so/) - 🆕 Community directory of MCP servers and tools.
+- [mcp-gateway](https://github.com/Zijian-Ni/mcp-gateway) - Gateway server for routing and managing MCP connections. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/mcp-gateway?style=flat-square)
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Dify](https://github.com/langgenius/dify) | OSS LLMOps. Visual agent builder. RAG. 130k+ stars. | Free / Cloud |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | OSS drag-and-drop LLM agent builder. | Free (OSS) |
-| [Langflow](https://github.com/langflow-ai/langflow) | Visual multi-agent and RAG builder. | Free / Cloud |
-| [Lindy](https://lindy.ai) | No-code agents. 3000+ integrations. | From $49/mo |
-| [Relevance AI](https://relevanceai.com) | No-code agents for sales, support, research. | Free / Paid |
-| [Rivet](https://rivet.ironcladapp.com) | Visual AI workflow builder. Drag-and-drop. | Free (OSS) |
-| [FastAgency](https://github.com/airtai/fastagency) | Deploy multi-agent workflows as APIs. | Free (OSS) |
-| [cstack](https://github.com/srf6413/cstack) | Architecture pattern for autonomous agents using Claude Cowork, Notion, and MCP. Persistent multi-domain agents with no custom infrastructure or code. | Free |
+### Agent-to-Agent Protocol (A2A)
+
+- [A2A Protocol](https://github.com/google/A2A) - 🆕 Google's open standard for agent-to-agent communication. Enables agents to discover, delegate, and collaborate regardless of framework. Now governed by Linux Foundation with 150+ partner organizations. ![GitHub stars](https://img.shields.io/github/stars/google/A2A?style=flat-square)
+- [A2A Course (DeepLearning.AI)](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) - 🆕 Free course on building multi-agent systems with A2A.
+
+### Other Standards
+
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 OpenAI's framework for multi-agent workflows with tracing and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
+- [Agentic AI Foundation](https://www.linuxfoundation.org/) - 🆕 Linux Foundation fund co-founded by Anthropic, Block, and OpenAI to govern open agent standards.
 
 ---
 
-## 💼 Customer Support and CRM Agents
+## 🏗️ Agent Frameworks
 
-### Support Agents
+*Frameworks and libraries for building autonomous AI agents.*
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Intercom Fin](https://intercom.com) | Resolves 50%+ tickets. Learns from help center. | From $29/seat |
-| [Zendesk AI](https://zendesk.com) | Ticket routing, sentiment detection, Answer Bot. | From $19/agent |
-| [Ada](https://ada.cx) | Autonomous resolution. Multi-channel. SOP Playbooks. | Enterprise |
-| [Assembled](https://assembled.com) | Workforce-aware handoffs. End-to-end resolution. | Enterprise |
-| [Freshdesk Freddy AI](https://freshworks.com) | Auto-triage, smart routing, predictive analytics. | From $15/agent |
-| [Dixa (Mim)](https://dixa.com) | Conversational CRM. AI routing and prioritization. | Enterprise |
+- [LangChain](https://github.com/langchain-ai/langchain) - Build context-aware reasoning applications with LLMs. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square)
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs with stateful, multi-actor orchestration. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing autonomous AI agents in collaborative teams. ![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square)
+- [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 Unified framework merging AutoGen + Semantic Kernel. Multi-agent conversations with enterprise features. GA Q1 2026.
+- [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework by Microsoft (now part of Microsoft Agent Framework). ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square)
+- [Google Agent Development Kit (ADK)](https://github.com/google/adk-python) - 🆕 Modular framework integrated with Gemini and Vertex AI. Hierarchical agent compositions. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - 🆕 Build multi-agent workflows with GPT models, tracing, and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework assigning different roles to GPTs for collaborative software entities. ![GitHub stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat-square)
+- [Mastra](https://github.com/mastra-ai/mastra) - 🆕 TypeScript-first agent framework with workflow-driven development and built-in observability. ![GitHub stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square)
+- [AgentGPT](https://github.com/reworkd/AgentGPT) - Assemble, configure, and deploy autonomous AI agents in your browser. ![GitHub stars](https://img.shields.io/github/stars/reworkd/AgentGPT?style=flat-square)
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) - AI-powered task management system using LLMs to create, prioritize, and execute tasks. ![GitHub stars](https://img.shields.io/github/stars/yoheinakajima/babyagi?style=flat-square)
+- [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI agent framework to build, manage & run agents. ![GitHub stars](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=flat-square)
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Integrate LLM technology into apps. C#, Python, Java support. ![GitHub stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square)
+- [Phidata (Agno)](https://github.com/phidatahq/phidata) - Build multi-modal agents with memory, knowledge, tools and reasoning. ![GitHub stars](https://img.shields.io/github/stars/phidatahq/phidata?style=flat-square)
+- [DSPy](https://github.com/stanfordnlp/dspy) - The framework for programming—not prompting—language models. ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=flat-square)
+- [OpenClaw](https://github.com/nicobailon/openclaw) - Personal AI agent platform with skills, memory, and multi-channel support. ![GitHub stars](https://img.shields.io/github/stars/nicobailon/openclaw?style=flat-square)
+- [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual agent builder. ![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=flat-square)
+- [Haystack Agents](https://github.com/deepset-ai/haystack) - End-to-end LLM framework for agentic pipelines. ![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square)
+- [Vellum AI](https://www.vellum.ai/) - 🆕 Production-grade agent framework with prompt-based building, evaluations, versioning, and observability.
+- [FastAgency](https://github.com/airtai/fastagency) - 🆕 High-speed inference and production scaling framework for agents. ![GitHub stars](https://img.shields.io/github/stars/airtai/fastagency?style=flat-square)
+- [Rasa](https://github.com/RasaHQ/rasa) - Open-source conversational AI with strong intent recognition and dialogue management. ![GitHub stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=flat-square)
+- [Lindy](https://www.lindy.ai/) - 🆕 Top no-code agent framework for business users with visual workflow builder.
 
-### AI-Powered CRMs
+## 🧠 Agent Memory
 
-| CRM | AI Features | Pricing |
-|-----|-------------|---------|
-| [Salesforce Einstein + Agentforce](https://salesforce.com) | Predictions, autonomous agents, ChatGPT integration. | Enterprise |
-| [HubSpot Breeze](https://hubspot.com) | Copilot, Agents, Intelligence. Agent marketplace. | Free / $45+/mo |
-| [Monday CRM (Lexi)](https://monday.com) | AI sales agent. Lead sourcing, qualification. AI Blocks. | From $12/seat |
-| [Zoho CRM (Zia)](https://zoho.com/crm) | Predictive, sentiment, voice commands. | From $14/user |
-| [Pipedrive AI](https://pipedrive.com) | Email gen, deal priority, smart reports. | From $14/seat |
-| [Dynamics 365 Copilot](https://dynamics.microsoft.com) | Drafting, summarizing, translating. Power Platform. | Enterprise |
-| [ServiceNow AI Agents](https://servicenow.com) | Orchestrator across IT, HR, CRM. | Enterprise |
-| [Creatio](https://creatio.com) | No-code. Pre-configured agents. | From $25/user |
-| [Salesmate](https://salesmate.io) | Call summarization, lead qualification. | From $23/user |
+*Systems for giving agents persistent memory and context management.*
 
-### Sales and Outreach Agents
+- [Letta (MemGPT)](https://github.com/letta-ai/letta) - Create LLM services with long-term memory and custom tools. ![GitHub stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square)
+- [Mem0](https://github.com/mem0ai/mem0) - The Memory layer for your AI apps — self-improving memory for LLM applications. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
+- [Zep](https://github.com/getzep/zep) - Long-term memory for AI assistants and agents. ![GitHub stars](https://img.shields.io/github/stars/getzep/zep?style=flat-square)
+- [agent-memory](https://github.com/Zijian-Ni/agent-memory) - Lightweight agent memory framework for persistent context across sessions. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/agent-memory?style=flat-square)
+- [LangMem](https://github.com/langchain-ai/langmem) - Long-term memory library for LangChain agents. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langmem?style=flat-square)
+- [Motorhead](https://github.com/getmetal/motorhead) - Memory and context management server for LLMs. ![GitHub stars](https://img.shields.io/github/stars/getmetal/motorhead?style=flat-square)
+- [ChromaDB](https://github.com/chroma-core/chroma) - AI-native open-source embedding database for memory-augmented agents. ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square)
+- [Cognee](https://github.com/topoteretes/cognee) - Deterministic LLM outputs using graphs, LLMs, and vector retrieval. ![GitHub stars](https://img.shields.io/github/stars/topoteretes/cognee?style=flat-square)
+- [LangGraph Memory](https://github.com/langchain-ai/langgraph) - 🆕 Built-in persistence and checkpointing for stateful agent workflows. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
+- [Graphiti](https://github.com/getzep/graphiti) - 🆕 Build and query knowledge graphs for agent memory using temporal awareness. ![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=flat-square)
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Clay](https://clay.com) | AI data enrichment. Personalized outreach at scale. | From $149/mo |
-| [Apollo.io](https://apollo.io) | AI prospecting, sequences, scoring. 275M+ contacts. | Free / $49+/mo |
-| [Instantly](https://instantly.ai) | AI cold email. Unlimited accounts. Smart rotation. | From $30/mo |
-| [Overloop CLI](https://github.com/sortlist/overloop-cli) | AI outbound CLI. Source 450M+ contacts, email + LinkedIn campaigns, conversations. Agent-native JSON output. | $69-99/mo |
-| [Lavender](https://lavender.ai) | AI email coach. Real-time scoring. | Free / $29/mo |
+## 🔌 Tool & API Integration
 
----
+*Protocols and tools for connecting agents to external services and APIs.*
 
-## 📊 Data and Research Agents
+- [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Open protocol for connecting AI models to external tools and data sources. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
+- [mcp-gateway](https://github.com/Zijian-Ni/mcp-gateway) - Gateway server for routing and managing MCP protocol connections. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/mcp-gateway?style=flat-square)
+- [Composio](https://github.com/ComposioHQ/composio) - Integration platform for AI agents — 150+ tools with managed auth. ![GitHub stars](https://img.shields.io/github/stars/ComposioHQ/composio?style=flat-square)
+- [Toolhouse](https://github.com/toolhouseai/toolhouse) - Cloud infrastructure for AI tool use — store, manage, and execute tools. ![GitHub stars](https://img.shields.io/github/stars/toolhouseai/toolhouse?style=flat-square)
+- [LangChain Tools](https://github.com/langchain-ai/langchain) - Extensive collection of tool integrations within the LangChain ecosystem. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square)
+- [Arcade AI](https://github.com/ArcadeAI/arcade-ai) - Tool calling platform for AI agents and assistants. ![GitHub stars](https://img.shields.io/github/stars/ArcadeAI/arcade-ai?style=flat-square)
+- [E2B](https://github.com/e2b-dev/e2b) - Open-source cloud runtime for AI agents — secure sandboxed environments for code execution. ![GitHub stars](https://img.shields.io/github/stars/e2b-dev/e2b?style=flat-square)
+- [Browser Use](https://github.com/browser-use/browser-use) - Make websites accessible for AI agents with browser automation. ![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square)
+- [Firecrawl](https://github.com/mendableai/firecrawl) - 🆕 Turn websites into LLM-ready data. Crawl and convert any website for AI. ![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square)
+- [Crawl4AI](https://github.com/unclecode/crawl4ai) - 🆕 Open-source LLM-friendly web crawler and scraper. ![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square)
+- [Stagehand](https://github.com/browserbase/stagehand) - 🆕 AI-powered browser automation framework by Browserbase. ![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=flat-square)
+- [AgentQL](https://www.agentql.com/) - 🆕 Query language for AI agents to interact with web pages semantically.
+- [StackOne](https://www.stackone.com/) - 🆕 Unified API for AI agent integrations across HR, CRM, and ATS platforms.
 
-### Deep Research
+## 🛡️ Agent Security
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [Claude Deep Research](https://claude.ai) | Multi-step investigation with citations. Sonnet 5 / Opus 4.6. | Claude Pro |
-| [ChatGPT Deep Research](https://chat.openai.com) | Extended reasoning, web browsing, reports. GPT-5.4. | ChatGPT Pro |
-| [Gemini Deep Research](https://gemini.google.com) | Google Search and Knowledge Graph. Gemini 3.1 Pro. | Gemini Advanced |
-| [Perplexity Pro](https://perplexity.ai) | AI search with deep research mode. Real-time citations. | Free / $20/mo |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | ByteDance OSS. Planning, tools, memory, execution. | Free (OSS) |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | OSS autonomous comprehensive research. | Free (OSS) |
-| [STORM](https://github.com/stanford-oval/storm) | Stanford. Writes Wikipedia-like articles from scratch. | Free (OSS) |
+*Tools and frameworks for securing AI agents against prompt injection, data leaks, and misuse.*
 
-### Data Analysis
+- [prompt-firewall](https://github.com/Zijian-Ni/prompt-firewall) - Firewall for LLM prompts — detect and block prompt injection attacks. ![GitHub stars](https://img.shields.io/github/stars/Zijian-Ni/prompt-firewall?style=flat-square)
+- [LLM Guard](https://github.com/protectai/llm-guard) - The Security Toolkit for LLM Interactions — input/output scanners for AI. ![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=flat-square)
+- [Rebuff](https://github.com/protectai/rebuff) - Self-hardening prompt injection detector — detect, deflect, and report. ![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=flat-square)
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Adding guardrails to large language models — validate and correct LLM outputs. ![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=flat-square)
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - Toolkit for adding programmable guardrails to LLM-based conversational systems. ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat-square)
+- [Vigil](https://github.com/deadbits/vigil-llm) - LLM security scanner — detect prompt injections, jailbreaks, and data leakage. ![GitHub stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=flat-square)
+- [Lakera Guard](https://www.lakera.ai/) - Enterprise-grade AI security platform for prompt injection defense.
+- [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner by NVIDIA — probe for weaknesses in language models. ![GitHub stars](https://img.shields.io/github/stars/NVIDIA/garak?style=flat-square)
+- [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant) - 🆕 Runtime guardrails for AI agents — policy enforcement and safety checks. ![GitHub stars](https://img.shields.io/github/stars/invariantlabs-ai/invariant?style=flat-square)
+- [Prompt Armor](https://promptarmor.com/) - 🆕 Enterprise prompt injection protection with real-time detection.
+- [Descope MCP Auth](https://www.descope.com/) - 🆕 Authentication and authorization layer for MCP server security.
 
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [AI for Database](https://aifordatabase.com) | Connect to any database and interact with it in plain English. No SQL needed — get instant insights, build self-refreshing dashboards, and trigger automated workflows based on database changes. | Free / Paid |
-| [Julius AI](https://julius.ai) | Upload CSV/Excel, ask in natural language. | Free / Paid |
-| [Hex AI](https://hex.tech) | Collaborative data platform. AI analysis. | Free / Paid |
-| [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | Chat with your data. NL to Pandas/SQL. | Free (OSS) |
-| [Signals CLI](https://github.com/sortlist/signals-cli) | Intent signal CLI. LinkedIn engagers, keyword posters, job changers, funding events. JSON output for agent pipelines. | Paid |
-| [TaskWeaver](https://github.com/microsoft/TaskWeaver) | Microsoft. Code-first data analytics agents. | Free (OSS) |
-| [AI for Database](https://aifordatabase.com) | Connect to any database in plain English. NL queries, self-refreshing dashboards, automated workflows triggered by data changes. | Freemium |
+## 🔍 RAG & Knowledge
 
-### RAG and Knowledge Bases
+*Retrieval-augmented generation and knowledge management systems for agents.*
 
-| Tool | Description |
-|------|-------------|
-| [RAGFlow](https://github.com/infiniflow/ragflow) | OSS RAG engine with agent capabilities. |
-| [Lorg](https://github.com/LorgAI/lorg-mcp-server) — Permanent intelligence archive for AI agents. Structured contributions (prompts, workflows, insights, patterns) pass an automated quality gate and are hash-chained. Trust scores are cryptographically backed and publicly auditable. Works with Claude and ChatGPT.
-| [Pathway](https://github.com/pathwaycom/pathway) | Live data RAG. Real-time streaming. 50k+ stars. |
-| [Mem0](https://github.com/mem0ai/mem0) | Memory layer for agents. Long-term across sessions. |
-| [Nex](https://github.com/nex-crm/nex-as-a-skill) | Organizational context and memory for AI agents. 60-tool MCP server, 100+ integrations. |
-| [Chroma](https://github.com/chroma-core/chroma) | OSS embedding database. Fastest way to build RAG. |
-| [Weaviate](https://github.com/weaviate/weaviate) | OSS vector DB. GraphQL. Multi-modal search. |
-| [Qdrant](https://github.com/qdrant/qdrant) | High-performance vector DB in Rust. |
-| [Milvus](https://github.com/milvus-io/milvus) | Cloud-native vector DB. Billion-scale. |
-| [Pinecone](https://pinecone.io) | Managed vector DB. Serverless. Low-latency. |
-| [iGPT](https://igpt.ai) | Email Intelligence API. Converts email threads into reasoning-ready JSON for agents. |
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLM-based applications — ingest, structure, and access private data. ![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square)
+- [Haystack](https://github.com/deepset-ai/haystack) - End-to-end LLM framework for building RAG pipelines and search systems. ![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square)
+- [Unstructured](https://github.com/Unstructured-IO/unstructured) - Open-source components for pre-processing documents for LLMs and RAG. ![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square)
+- [Chroma](https://github.com/chroma-core/chroma) - AI-native open-source embedding database. ![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square)
+- [Weaviate](https://github.com/weaviate/weaviate) - Open-source vector database for AI-native applications. ![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=flat-square)
+- [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector similarity search engine and database. ![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=flat-square)
+- [Pinecone](https://www.pinecone.io/) - Managed vector database for high-performance AI applications.
+- [Milvus](https://github.com/milvus-io/milvus) - Cloud-native vector database for scalable similarity search. ![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=flat-square)
+- [RAGFlow](https://github.com/infiniflow/ragflow) - Open-source RAG engine based on deep document understanding. ![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square)
+- [Docling](https://github.com/DS4SD/docling) - Document parsing and conversion for RAG and generative AI. ![GitHub stars](https://img.shields.io/github/stars/DS4SD/docling?style=flat-square)
+- [Kotaemon](https://github.com/Cinnamon/kotaemon) - 🆕 Open-source RAG-based tool for chatting with documents. ![GitHub stars](https://img.shields.io/github/stars/Cinnamon/kotaemon?style=flat-square)
+- [LightRAG](https://github.com/HKUDS/LightRAG) - 🆕 Simple and fast RAG engine with graph-based knowledge indexing. ![GitHub stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square)
+- [R2R](https://github.com/SciPhi-AI/R2R) - 🆕 Production-ready RAG engine with built-in auth, observability, and ingestion. ![GitHub stars](https://img.shields.io/github/stars/SciPhi-AI/R2R?style=flat-square)
+- [Vanna](https://github.com/vanna-ai/vanna) - 🆕 RAG for SQL — chat with your database using natural language. ![GitHub stars](https://img.shields.io/github/stars/vanna-ai/vanna?style=flat-square)
 
----
+## 💻 Coding Agents
 
-## 🏠 Local and Self-Hosted AI
+*AI-powered coding assistants and autonomous software engineering agents.*
 
-### Local LLM Runners
+### Terminal & CLI Agents
 
-| Tool | Description |
-|------|-------------|
-| [Ollama](https://github.com/ollama/ollama) | Run LLMs locally. 162k+ stars. Dead simple CLI. |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ inference. CPU, GPU, Apple Silicon. Foundation of local AI. |
-| [vLLM](https://github.com/vllm-project/vllm) | High-throughput serving. PagedAttention. Production-grade. |
-| [LM Studio](https://lmstudio.ai) | Desktop app for local LLMs. Beautiful UI. All platforms. |
-| [Jan](https://github.com/janhq/jan) | OSS ChatGPT alternative. 100% offline. |
-| [LocalAI](https://github.com/mudler/LocalAI) | Drop-in OpenAI API replacement. No GPU required. |
-| [Cerebras Inference](https://inference.cerebras.ai) | Fastest LLM inference. Llama 3.3 70B at 1000+ tok/s. Free tier. |
-| [Groq Cloud](https://console.groq.com) | Ultra-fast LPU inference. Mixtral, Llama, Gemma. Free API tier. |
-| [Fireworks AI](https://fireworks.ai) | Serverless LLM inference. Fine-tuning. RAG. Free credits. |
-| [Together AI](https://together.ai) | 200+ open models. Fast inference API. Free tier. |
-| [GPT4All](https://github.com/nomic-ai/gpt4all) | OSS local chat. Consumer hardware. |
-| [Llamafile](https://github.com/Mozilla-Ocho/llamafile) | LLMs as single files. Zero setup. Mozilla. |
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool. 80.9% SWE-bench score, handles complex multi-file bugs.
+- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent. 77.3% Terminal-Bench score. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
+- [Aider](https://github.com/Aider-AI/aider) - AI pair programming in your terminal — works with any LLM. ![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - 🆕 Google's terminal-first coding agent for large-context refactors. ![GitHub stars](https://img.shields.io/github/stars/google-gemini/gemini-cli?style=flat-square)
 
-### Self-Hosted Agents and UIs
+### IDE-Based Agents
 
-| Tool | Description |
-|------|-------------|
-| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT UI. Access control. Extensions. |
-| [OpenClaw](https://github.com/openclaw/openclaw) | Fastest-growing GitHub repo ever (9k to 188k stars in 60 days). Self-hosted agent across WhatsApp, Telegram, Slack, Discord, Signal. 5,700+ community skills. | 
-| [openclaw-starter](https://github.com/feralghost/openclaw-starter) | Fork-and-run template for 24/7 autonomous AI agents. Pre-configured SOUL.md, memory system, KANBAN, heartbeat. Start in 30 minutes. |
-| [LibreChat](https://github.com/danny-avila/LibreChat) | Self-hosted multi-model chat. All major providers. |
-| [LobeChat](https://github.com/lobehub/lobe-chat) | OSS ChatGPT/Gemini UI. Plugin system. Multi-modal. |
-| [KinBot](https://github.com/MarlBurroW/kinbot) | Self-hosted AI agent platform. Persistent memory (hybrid search + LLM re-ranking), 23+ providers (including Ollama), plugin store, mini-apps SDK, cron scheduling, 6 messaging channels. SQLite, runs on a Pi. |
-| [Anything LLM](https://github.com/Mintplex-Labs/anything-llm) | All-in-one AI app. RAG, agents. Desktop + Docker. |
-| [DB-GPT](https://github.com/eosphoros-ai/DB-GPT) | Data interaction with local LLM. 100% private. |
+- [Cursor](https://www.cursor.com/) - The AI code editor with Feb 2026 update supporting up to 8 parallel agents. 🆕
+- [Windsurf](https://codeium.com/windsurf) - Agentic IDE by Codeium — AI-first code editing experience.
+- [Cline](https://github.com/cline/cline) - Autonomous coding agent in your IDE — VS Code extension. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
+- [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains. ![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=flat-square)
+- [GitHub Copilot](https://github.com/features/copilot) - 🆕 Agent mode with expanded model access and `gh copilot` shell integration in early 2026.
+- [Kiro](https://kiro.dev/) - 🆕 AWS autonomous agent. Spec-driven development, manages up to 10 simultaneous tasks, integrates with GitHub/Jira/Slack. Currently in preview.
+- [Amazon Q Developer](https://aws.amazon.com/q/developer/) - 🆕 AI coding companion deeply integrated with AWS ecosystem.
 
----
+### Autonomous Software Engineers
 
-## 🤖 Multi-Agent Platforms
-
-| Platform | Description | Pricing |
-|----------|-------------|---------|
-| [ChatGPT](https://chat.openai.com) | GPTs, Deep Research, Canvas, Agent Mode, vision. GPT-5.4 (monthly updates). | Free / $20+/mo |
-| [Claude](https://claude.ai) | Tool use, computer control, MCP, code exec. Chrome, Excel, Cowork. Claude Sonnet 5 / Opus 4.6. | Free / $20+/mo |
-| [Gemini](https://gemini.google.com) | Deep Think, Gems, multi-modal. Gemini 3.1 Pro. 1M tokens. Google ecosystem. | Free / $19.99+/mo |
-| [Grok](https://x.ai) | Real-time X data. Grok 4.20. Multi-agent Society of Mind. Image gen. | X Premium+ |
-| [Meta AI](https://meta.ai) | Llama-powered. WhatsApp/Messenger. Manus acquisition. | Free |
-| [TeamHero](https://github.com/sagiyaacoby/TeamHero) | Open-source multi-agent orchestration with web dashboard, task lifecycle, knowledge base, and autopilot mode. Built on Claude Code. Runs locally. | Free (OSS) |
-| [Microsoft Copilot](https://copilot.microsoft.com) | Office 365 integration. Enterprise. | Free / $30/user |
-| [Coze](https://coze.com) | ByteDance agent builder. Visual workflow. Plugin marketplace. | Free / Paid |
-| [Cursor AI Automated Team](https://github.com/joinwell52-AI/joinwell52) | 4-role AI team (PM+DEV+OPS+QA) in Cursor IDE. File-based task routing, auto patrol bot. 87 person-days in 17 days. | Free / OSS |
+- [Devin 3.0](https://www.cognition.ai/) - 🆕 By Cognition. Dynamic re-planning, self-healing code, legacy codebase migration, multi-modal input (UI mockups, video recordings).
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source platform for AI software developers as autonomous agents. ![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square)
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Turn LLMs into software engineering agents that fix real GitHub issues. ![GitHub stars](https://img.shields.io/github/stars/SWE-agent/SWE-agent?style=flat-square)
+- [Devika](https://github.com/stitionai/devika) - Agentic AI software engineer — open-source alternative to Devin. ![GitHub stars](https://img.shields.io/github/stars/stitionai/devika?style=flat-square)
+- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Specify what you want built, AI asks for clarification, then builds it. ![GitHub stars](https://img.shields.io/github/stars/gpt-engineer-org/gpt-engineer?style=flat-square)
+- [Codegen](https://github.com/codegen-sh/codegen-sdk) - 🆕 Programmatic code manipulation and multi-file refactoring SDK. ![GitHub stars](https://img.shields.io/github/stars/codegen-sh/codegen-sdk?style=flat-square)
+- [Qodo](https://www.qodo.ai/) - 🆕 AI Code Review Platform focused on quality, security, and test generation.
 
 ---
 
-## 📡 Protocols and Standards
+## 🖥️ Computer Use & Desktop Agents
 
-| Protocol | Description |
-|----------|-------------|
-| [MCP (Model Context Protocol)](https://github.com/modelcontextprotocol) | Anthropic open standard. "USB-C for AI." Donated to Linux Foundation. Industry standard for agent tools. |
-| [A2A (Agent-to-Agent)](https://github.com/google/A2A) | Google protocol for inter-agent communication. Horizontal agent collaboration. |
-| [MCP Gateways](https://github.com/modelcontextprotocol) | Enterprise management layer: auth, routing, observability across MCP+A2A networks. |
-| [MCP Apps](https://github.com/modelcontextprotocol) | ⭐ **New in 2026** — Tools return rich interactive UIs (dashboards, forms) in agent chat. |
-| [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) | OpenAI native tool-use. JSON schema. |
-| [Tool Use (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) | Claude native tool-use. Structured JSON. |
-| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) | Industry-standard API spec. Foundation for agent tools. |
-| [HCS (Hashgraph Consensus Service)](https://hol.org) | Hedera open standards for agent identity (HCS-14 UAIDs), trustless P2P communication (HCS-10), and cross-protocol bridging. 187K+ verified agents. |
+*AI agents that can see, control, and automate desktop environments and browsers.*
 
-### Protocol Tooling
-
-| Tool | Description |
-|------|-------------|
-| [Agentify](https://github.com/koriyoshi2041/agentify) | CLI to transform OpenAPI specs into 9 agent formats (MCP, AGENTS.md, Claude tools, etc.). `npx agentify-cli`. |
+- [Claude Computer Use](https://www.anthropic.com/) - 🆕 Anthropic's "Desktop Intelligence" — Claude sees your screen and uses mouse/keyboard to automate any software.
+- [OpenAI Operator](https://openai.com/) - 🆕 Browser agent for booking, form-filling, and web task automation.
+- [Google Project Mariner](https://deepmind.google/) - 🆕 Gemini-powered multi-tasking AI with parallel task execution and routine learning.
+- [Microsoft Copilot Agents](https://www.microsoft.com/en-us/microsoft-copilot/) - 🆕 Autonomous background agents across the Microsoft 365 stack. Beyond sidebar — executes tasks and surfaces for approvals.
+- [Browser Use](https://github.com/browser-use/browser-use) - Make websites accessible for AI agents with browser automation. ![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square)
+- [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - A natural language interface for computers — let LLMs run code locally. ![GitHub stars](https://img.shields.io/github/stars/OpenInterpreter/open-interpreter?style=flat-square)
+- [Manus AI](https://manus.im/) - 🆕 Autonomous general-purpose AI agent with cloud-to-local hybrid model. Handles research, coding, and complex multi-step tasks.
+- [Genspark](https://www.genspark.ai/) - 🆕 All-in-one autonomous work agent with mixture-of-agents architecture. Can make phone calls.
+- [Perplexity Computer](https://www.perplexity.ai/) - 🆕 Research-focused desktop agent with multi-model orchestration and local file access.
+- [Beam AI](https://beam.ai/) - 🆕 Self-learning desktop agents that refine logic based on successful outcomes.
+- [Stagehand](https://github.com/browserbase/stagehand) - 🆕 AI-powered browser automation framework. ![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=flat-square)
+- [Playwright MCP](https://github.com/anthropics/playwright-mcp) - 🆕 Browser automation via MCP for structured web interaction.
 
 ---
 
-## 🔍 Observability and Evaluation
+## 🗣️ Voice & Multimodal Agents
 
-### Context Optimization
+*Voice-enabled and multimodal AI agent platforms.*
 
-| Tool | Description |
-|------|-------------|
-| [Entroly](https://github.com/juyterman1000/entroly) | Context engineering engine. 100% codebase visibility with 78% fewer tokens. Knapsack-optimal selection, SimHash dedup, RL from response quality. Rust engine, <10ms. MCP + HTTP proxy. |
+- [ElevenLabs](https://elevenlabs.io/) - AI voice platform with conversational AI agents and realistic speech synthesis.
+- [Vapi](https://github.com/VapiAI/server-sdk-python) - Platform for building voice AI agents — build, test, and deploy voice assistants. ![GitHub stars](https://img.shields.io/github/stars/VapiAI/server-sdk-python?style=flat-square)
+- [Retell AI](https://www.retellai.com/) - Build production-ready conversational voice AI agents.
+- [Bland AI](https://www.bland.ai/) - AI phone calling platform — enterprise-grade conversational AI.
+- [LiveKit Agents](https://github.com/livekit/agents) - Build real-time multimodal AI agents with voice, video, and data. ![GitHub stars](https://img.shields.io/github/stars/livekit/agents?style=flat-square)
+- [Pipecat](https://github.com/pipecat-ai/pipecat) - Open-source framework for voice and multimodal conversational AI. ![GitHub stars](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=flat-square)
+- [Vocode](https://github.com/vocodedev/vocode-python) - Open-source library for building voice-based LLM agents. ![GitHub stars](https://img.shields.io/github/stars/vocodedev/vocode-python?style=flat-square)
+- [Bolna](https://github.com/bolna-ai/bolna) - End-to-end open-source voice AI agents framework. ![GitHub stars](https://img.shields.io/github/stars/bolna-ai/bolna?style=flat-square)
+- [Cartesia](https://www.cartesia.ai/) - 🆕 Ultra-low-latency voice AI for real-time conversational agents.
+- [PlayHT](https://play.ht/) - 🆕 AI voice generation platform with conversational AI and voice cloning.
+- [Sesame](https://www.sesame.com/) - 🆕 Voice AI companion with emotional understanding and natural conversation.
 
-### Tracing and Monitoring
+## 📱 Personal AI Agents
 
-| Tool | Description |
-|------|-------------|
-| [Langfuse](https://github.com/langfuse/langfuse) | OSS LLM observability. Traces, evals, prompts. |
-| [LangSmith](https://smith.langchain.com) | LangChain platform. Tracing, testing, evaluation. |
-| [model-watchdog](https://github.com/feralghost/model-watchdog) | Auto-rollback for AI agent config changes. Monitors health endpoint, reverts config + restarts service on failures. Zero deps. |
-| [Braintrust](https://braintrustdata.com) | Eval-driven development. Experiment tracking. |
-| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | OSS AI observability. Traces, evals, embeddings. |
-| [Helicone](https://github.com/Helicone/helicone) | OSS LLM observability. One-line integration. |
-| [model-watchdog](https://github.com/feralghost/model-watchdog) | Auto-rollback when your AI agent config breaks it. Zero deps, single Python file. Probes health endpoint, reverts config on failure. |
-| [Weights and Biases Weave](https://wandb.ai/site/weave) | Trace and evaluate LLM apps. |
+*AI agents designed for personal use, productivity, and daily life assistance.*
 
-### Benchmarks
+- [OpenClaw](https://github.com/nicobailon/openclaw) - Personal AI agent that lives on your machine — multi-channel, skills, memory. ![GitHub stars](https://img.shields.io/github/stars/nicobailon/openclaw?style=flat-square)
+- [Rabbit R1](https://www.rabbit.tech/) - Dedicated AI hardware device with a large action model for personal assistance.
+- [Limitless](https://www.limitless.ai/) - Personalized AI powered by what you've seen, said, and heard (formerly Rewind).
+- [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - A natural language interface for computers — let LLMs run code locally. ![GitHub stars](https://img.shields.io/github/stars/OpenInterpreter/open-interpreter?style=flat-square)
+- [01 Light](https://github.com/OpenInterpreter/01) - Open-source voice interface for computers. ![GitHub stars](https://img.shields.io/github/stars/OpenInterpreter/01?style=flat-square)
+- [Leon](https://github.com/leon-ai/leon) - Open-source personal assistant — lives on your server. ![GitHub stars](https://img.shields.io/github/stars/leon-ai/leon?style=flat-square)
+- [Khoj](https://github.com/khoj-ai/khoj) - Personal AI second brain — search and chat with your notes, docs, and images. ![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square)
+- [Humane AI Pin](https://humane.com/) - Wearable AI device with a screenless, ambient computing experience.
+- [Arahi AI](https://arahi.ai/) - 🆕 Personal productivity and business automation assistant.
+- [Lindy AI](https://www.lindy.ai/) - 🆕 No-code AI agent for email, calendar, and workflow automation.
+- [MuleRun](https://www.mulerun.ai/) - 🆕 Always-on agents for recurring tasks and background automation.
 
-| Benchmark | Description |
-|-----------|-------------|
-| [SWE-bench](https://github.com/princeton-nlp/SWE-bench) | Industry standard for coding agents. Top: 80.9% (Claude Opus 4.6). |
-| [AgentBench](https://github.com/THUDM/AgentBench) | 8-environment LLM agent benchmark. |
-| [Terminal-Bench](https://terminalbench.com) | Terminal agent performance. GPT-5.4 leads at 77.3%. |
-| [ARC-AGI-2](https://arcprize.org) | ⭐ New frontier benchmark. Gemini 3.1 Pro leads. |
-| [GAIA](https://huggingface.co/gaia-benchmark) | General AI Assistant. Real-world tasks. |
-| [WebArena](https://github.com/web-arena-x/webarena) | Web agent benchmark. Real websites. |
+## 🏢 Enterprise Agent Platforms
 
----
+*Enterprise-grade platforms for deploying AI agents at scale.*
 
-## 🧠 Open-Source Models for Agents
+- [Salesforce Agentforce](https://www.salesforce.com/agentforce/) - Autonomous AI agents for enterprise CRM — sales, service, and marketing.
+- [Microsoft Copilot Studio](https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio) - Build and customize AI agents and copilots for your organization.
+- [Google Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder) - Build and deploy enterprise-ready generative AI agents on Google Cloud.
+- [Amazon Bedrock Agents](https://aws.amazon.com/bedrock/agents/) - Build AI agents that can execute multi-step tasks across company systems.
+- [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - AI agents for enterprise IT service management with AI Control Tower. 🆕
+- [IBM watsonx Orchestrate](https://www.ibm.com/products/watsonx-orchestrate) - AI assistant platform to automate work across enterprise applications.
+- [Oracle AI Agents](https://www.oracle.com/artificial-intelligence/) - Enterprise AI agents integrated with Oracle Fusion Cloud ERP. 🆕
+- [Moveworks](https://www.moveworks.com/) - Enterprise copilot platform — AI that works across every system.
+- [UiPath Agentic Automation](https://www.uipath.com/) - 🆕 Agentic reasoning layered onto RPA bot estates for intelligent process automation.
+- [AgentX](https://www.agentx.so/) - 🆕 Agentic enterprise solution for scalable AI automation with plug-and-play chatbots.
+- [OutSystems](https://www.outsystems.com/) - 🆕 AI development platform for rapidly building mission-critical apps and agent governance.
+- [Sema4.ai](https://sema4.ai/) - 🆕 Enterprise AI agent platform with Python-first approach and built-in governance.
 
-| Model | Org | Params | Highlights |
-|-------|-----|--------|------------|
-| [Llama 4](https://github.com/meta-llama) | Meta | 109B-400B | Scout (10M ctx). Maverick (1M ctx). Strong tool use. Open-weight. |
-| [Qwen3.6-Plus](https://github.com/QwenLM/Qwen3) | Alibaba | Various | ⭐ **NEW (Apr 2026)** Agentic focus. 1M ctx. Repo-level coding. MCP-native. |
-| [Qwen3.5-Omni](https://github.com/QwenLM/Qwen3) | Alibaba | 397B MoE | Native multimodal. Text, image, audio. |
-| [DeepSeek V3/R1](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek | 671B MoE | 68x cheaper. Strong reasoning. V4 Lite in preview. |
-| [Gemma 4](https://github.com/google-deepmind/gemma) | Google | 2B-31B | ⭐ **NEW (Apr 2026)** Consumer/IoT optimized. E2B, E4B variants. |
-| [GLM-4](https://github.com/THUDM/GLM-4) | Zhipu | 744B MoE | Lowest hallucination rate. 77.8% SWE-bench. |
-| [Mistral Large](https://mistral.ai) | Mistral | Various | Function calling, JSON mode. European. |
-| [Command R+](https://cohere.com) | Cohere | 104B | RAG and enterprise tool use optimized. |
-| [Phi-4](https://github.com/microsoft/phi-4) | Microsoft | 14B | Small but mighty. On-device agents. |
+## 📊 Agent Evaluation & Observability
 
----
+*Tools for testing, evaluating, and monitoring AI agents in production.*
 
-## 🛡 AI Safety and Guardrails
-
-| Tool | Description |
-|------|-------------|
-| [Guardrails AI](https://github.com/guardrails-ai/guardrails) | Structural, type, quality guarantees for LLM outputs. |
-| [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA. Programmable conversation guardrails. |
-| [LLM Guard](https://github.com/protectai/llm-guard) | Security toolkit. Input/output scanning. |
-| [Rebuff](https://github.com/protectai/rebuff) | Prompt injection detection. |
-| [Lakera Guard](https://lakera.ai) | Real-time protection. Prompt injection, data leakage, toxicity. |
-| [OWASP Top 10 for Agentic Apps](https://owasp.org) | ⭐ **2026 Framework** Goal hijacking, tool misuse, cascading failure mitigations. |
-
----
-
-## ⚖️ AI Governance and Compliance
-
-> ⭐ **New section** — EU AI Act full obligations take effect **August 2, 2026**. Organizations deploying agents must comply.
-
-| Tool / Resource | Description |
-|-----------------|-------------|
-| [Credo AI](https://credo.ai) | End-to-end AI governance. EU AI Act policy packs. Model inventory. |
-| [IBM watsonx.governance](https://ibm.com/watsonx) | Enterprise AI risk, compliance, and model monitoring. |
-| [OneTrust AI Governance](https://onetrust.com) | Risk classification, consent, and compliance workflows. |
-| [Microsoft Agent Governance Toolkit](https://microsoft.com) | Runtime policy enforcement and guardrails for Azure agents. |
-| [Bifrost](https://bifrost.ai) | Real-time security enforcement in agent pipelines. |
-| [AuditOne](https://auditone.io) | Automated risk assessments and audit-ready documentation. |
-| [EU AI Act (Official)](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | Official EU AI regulatory framework. Risk tiers: Unacceptable, High-Risk, Limited, Minimal. |
-| [NIST AI RMF](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf) | US framework. Govern, Map, Measure, Manage. |
+- [AgentBench](https://github.com/THUDM/AgentBench) - Multi-dimensional benchmark for evaluating LLMs as agents. ![GitHub stars](https://img.shields.io/github/stars/THUDM/AgentBench?style=flat-square)
+- [LangSmith](https://www.langchain.com/langsmith) - Platform for debugging, testing, evaluating, and monitoring LLM applications.
+- [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform — logs, metrics, and traces. ![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square)
+- [Braintrust](https://github.com/braintrustdata/braintrust-sdk) - Enterprise-grade stack for building AI products — eval, prompt playground, logging. ![GitHub stars](https://img.shields.io/github/stars/braintrustdata/braintrust-sdk?style=flat-square)
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - AI observability & evaluation — traces, evals, and datasets. ![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=flat-square)
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform — traces, evals, prompt management. ![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square)
+- [OpenLLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for LLM applications based on OpenTelemetry. ![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square)
+- [Weights & Biases Weave](https://github.com/wandb/weave) - Toolkit for developing, evaluating, and monitoring AI applications. ![GitHub stars](https://img.shields.io/github/stars/wandb/weave?style=flat-square)
+- [SWE-bench](https://github.com/princeton-nlp/SWE-bench) - Benchmark for evaluating LLMs on real-world software engineering problems. ![GitHub stars](https://img.shields.io/github/stars/princeton-nlp/SWE-bench?style=flat-square)
+- [Terminal-Bench](https://github.com/openai/terminal-bench) - 🆕 Benchmark for terminal-based coding agent evaluation.
+- [LMSYS Chatbot Arena](https://chat.lmsys.org/) - 🆕 Crowdsourced LLM benchmark using human preference voting.
+- [Patronus AI](https://www.patronus.ai/) - 🆕 Automated LLM evaluation and red-teaming platform.
 
 ---
 
-## 🔐 Cybersecurity Agents
+## 🔬 AI Research Tools
 
-| Agent | Description |
-|-------|-------------|
-| [CAI](https://github.com/aliasrobotics/CAI) | AI pentesting, vuln discovery, red teaming. HITL. |
-| [YAWNING TITAN](https://github.com/dstl/YAWNING-TITAN) | Graph-based cybersecurity simulation. |
-| [PentestGPT](https://github.com/GreyDGL/PentestGPT) | GPT-powered pentesting. Automated reasoning. |
-| [Microsoft Security Copilot](https://microsoft.com/security/copilot) | Enterprise threat detection, incident response. |
-| [CrowdStrike Charlotte AI](https://crowdstrike.com) | AI security analyst. Threat hunting. |
-| [Prism Scanner](https://github.com/aidongise-cell/prism-scanner) | OSS security scanner for AI agent skills/plugins/MCP servers. Pre-install taint tracking, post-uninstall residue detection. |
+*Tools and platforms for AI/ML research, experimentation, and development.*
 
----
-
-## 🏥 Healthcare and Therapy Agents
-
-| Agent | Description | Pricing |
-|-------|-------------|---------|
-| [CittaVerse 一念万相](https://github.com/cittaverse/core) | AI-assisted reminiscence therapy for elderly cognitive training. Narrative quality scoring (v0.7), life story book generation. Chinese + English. | Research pilot |
-| [Woebot](https://woebothealth.com) | CBT-based mental health chatbot. FDA-cleared. Stanford-validated. Retiring June 2025. | Free / B2B |
-| [Wysa](https://wysa.io) | AI mental health companion. CBT, DBT, meditation. NHS-approved. Anonymous by design. | Free / $74.99/yr |
-| [Youper](https://youper.ai) | Emotional health assistant. CBT + ACT. Mood tracking. Stanford-tested clinically effective. | 7-day trial / $69.99/yr |
-| [Sanvello](https://sanvello.com) | CBT tools, mood tracking, coaching. Insurance-covered. | Free / Premium |
-| [Talkspace AI](https://talkspace.com) | AI-assisted therapy matching. Human therapist backup. | Subscription |
-| [Tess by X2AI](https://www.x2ai.com/individuals) | SMS-based therapy coach. CBT + integrative therapies. Clinically validated (-28% depression, -18% anxiety). 85% users feel better. | Free (via employer/school) |
-| [Elomia](https://elomia.com/) | AI therapy chatbot. Clinician-designed, natural conversation. 85% feel better after chat. Anonymous, no data collection. | 3-day trial / ~$7-10/mo |
-| [Replika](https://replika.com/) | AI companion friend. Rogersian support, open-ended chat. Memory function, mood tracking. Best for loneliness/social anxiety. | Free / $14.99/mo Pro |
-| [Headspace Health](https://www.headspace.com/) | Meditation + mental health. CBT-based courses, sleep, stress. Clinical partnerships. | Free / $12.99/mo |
-| [Akili Interactive](https://www.akiliinteractive.com/) | FDA-cleared cognitive training. Video game-based digital medicine for ADHD. Neuroplasticity-focused. | Prescription only |
-| [Ginger](https://ginger.com/) | On-demand mental healthcare. AI coaching + live therapists. CBT, DBT, mindfulness. Employer-sponsored. | Free (via employer) / $99/mo |
+- [Hugging Face](https://huggingface.co/) - The AI community's platform — models, datasets, and Spaces for ML research.
+- [vLLM](https://github.com/vllm-project/vllm) - 🆕 High-throughput LLM serving engine with PagedAttention. ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=flat-square)
+- [Ollama](https://github.com/ollama/ollama) - Run LLMs locally with a simple API. Supports Llama, Mistral, Qwen, and more. ![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square)
+- [LM Studio](https://lmstudio.ai/) - Desktop app for running local LLMs with a user-friendly interface.
+- [SGLang](https://github.com/sgl-project/sglang) - 🆕 Fast serving framework for large language and vision models. ![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=flat-square)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ — run models on consumer hardware. ![GitHub stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=flat-square)
+- [MLX](https://github.com/ml-explore/mlx) - 🆕 Apple's array framework for ML on Apple silicon. ![GitHub stars](https://img.shields.io/github/stars/ml-explore/mlx?style=flat-square)
+- [Unsloth](https://github.com/unslothai/unsloth) - 🆕 Fine-tune LLMs 2x faster with 70% less memory. ![GitHub stars](https://img.shields.io/github/stars/unslothai/unsloth?style=flat-square)
+- [OpenRouter](https://openrouter.ai/) - 🆕 Unified API for accessing 200+ AI models from all major providers.
+- [Weights & Biases](https://wandb.ai/) - ML experiment tracking, dataset versioning, and model management.
+- [Label Studio](https://github.com/HumanSignal/label-studio) - Multi-type data labeling and annotation tool. ![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=flat-square)
 
 ---
 
 ## 📚 Learning Resources
 
-### Courses and Tutorials
-- [DeepLearning.AI Agent Courses](https://www.deeplearning.ai/) - Free courses with LangChain, CrewAI, AutoGen
-- [HuggingFace Agents Course](https://huggingface.co/learn/agents-course) - Open-source agent dev course
-- [LangGraph Academy](https://academy.langchain.com/) - Official LangGraph path
-- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Claude agent recipes
-- [Microsoft GenAI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - 21-lesson course
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Practical API guides
-- [Google ADK Documentation](https://google.github.io/adk-docs/) - ⭐ Official Google Agent Development Kit docs
+*Papers, courses, tutorials, and guides for understanding and building AI agents.*
 
-### Key Papers
-- [ReAct](https://arxiv.org/abs/2210.03629) - Foundation for modern agents (reasoning + acting)
-- [Toolformer](https://arxiv.org/abs/2302.04761) - Teaching LLMs to use tools
-- [Voyager](https://arxiv.org/abs/2305.16291) - Open-ended embodied agent in Minecraft
-- [Generative Agents](https://arxiv.org/abs/2304.03442) - Stanford simulacra of human behavior
-- [Self-Refine](https://arxiv.org/abs/2303.17651) - Iterative self-refinement
-- [Tree of Thoughts](https://arxiv.org/abs/2305.10601) - Deliberate problem solving
-- [HuggingGPT](https://arxiv.org/abs/2303.17580) - LLM task planning + specialist models
-- [MRKL Systems](https://arxiv.org/abs/2205.00445) - Neuro-symbolic agent architecture
+### Papers
 
-### Books
-- Building LLM Apps (O'Reilly) - Practical LLM application development
-- AI Agents in Action (Manning) - Production-ready AI agents
-- AI Engineering (Chip Huyen) - AI systems design and deployment
+- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The foundational paper on reasoning + acting in LLMs.
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) - Teaching LLMs to use external tools autonomously.
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) - Stanford's generative agent architecture with memory and reflection.
+- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) - Comprehensive survey of LLM-based autonomous agents.
+- [The Rise and Potential of Large Language Model Based Agents](https://arxiv.org/abs/2309.07864) - In-depth analysis of LLM agent capabilities and future directions.
+- [Agent Hospital](https://arxiv.org/abs/2405.02957) - A simulacrum of hospital with evolvable medical agents.
+- [Multimodal Intelligence as the Dominant Paradigm in 2026 AI Systems](https://www.researchgate.net/publication/398878301) - 🆕 Research on multimodal AI becoming the default paradigm.
 
----
+### Courses & Tutorials
 
-## 📰 Newsletters and Communities
+- [DeepLearning.AI — AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Short course on building agents with LangGraph.
+- [DeepLearning.AI — Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/) - Course on building multi-agent systems.
+- [DeepLearning.AI — A2A Protocol](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/) - 🆕 Free course on Google's Agent-to-Agent protocol.
+- [LangChain Academy](https://academy.langchain.com/) - Free courses on LangChain, LangGraph, and agent development.
+- [Hugging Face — Building AI Agents](https://huggingface.co/learn/agents-course/) - Open course on building AI agents with open-source tools.
+- [LLM Agents MOOC (Berkeley)](https://llmagents-learning.org/f24) - UC Berkeley course on LLM agents.
+- [Microsoft Agent Framework Docs](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 Official documentation for Microsoft's unified agent framework.
 
-| Resource | Description |
-|----------|-------------|
-| [Awesome Agents Newsletter](https://awesomeagents.ai) | Weekly tools + reviews |
-| [aibtc.news](https://aibtc.news) | Bitcoin-focused agent news platform with bounties and classifieds. |
-| [Latent Space](https://www.latent.space/) | AI engineering podcast (Swyx + Alessio) |
-| [The Rundown AI](https://therundown.ai) | Daily digest (600k+ subs) |
-| [Ben's Bites](https://bensbites.co) | Daily AI with builder focus |
-| [State of Agent Engineering](https://www.langchain.com/state-of-agent-engineering) | Annual report (1,300+ surveyed) |
-| [r/LangChain](https://reddit.com/r/LangChain) | Agent developer community |
-| [r/ClaudeAI](https://reddit.com/r/ClaudeAI) | Claude community |
-| [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) | Self-hosted LLM community |
+### Curated Lists
 
----
+- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - Curated list of AI autonomous agents by E2B. ![GitHub stars](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents?style=flat-square)
+- [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) - Curated list of LLM-powered agent resources. ![GitHub stars](https://img.shields.io/github/stars/kaushikb11/awesome-llm-agents?style=flat-square)
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - 🆕 Curated list of MCP server implementations. ![GitHub stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=flat-square)
 
-## 📈 Market Stats 2026
+## 🌟 Notable Agent Projects of 2026
 
-- **Market size:** $10.91B in 2026, projected $52.63B by 2030 (46.3% CAGR)
-- **Production:** 57% of orgs have agents in production (LangChain)
-- **Dev adoption:** 85% of devs use AI coding tools regularly
-- **Top uses:** Customer service (26.5%), Research (24.4%), Workflow automation (18%)
-- **Top barrier:** Quality (32%), Latency (20%)
-- **Coding market:** $4B. Cursor + Copilot + Claude Code = 70%+ share
-- **Fastest repo:** OpenClaw (9k to 188k stars in 60 days)
-- **Model velocity:** Frontier models now updated every 2–4 weeks (GPT-5.x monthly cycle)
-- **Context windows:** 1M tokens now standard for all frontier models
-- **EU AI Act:** Full obligations for high-risk AI systems effective August 2, 2026
-- **MCP adoption:** Donated to Linux Foundation; adopted by Anthropic, OpenAI, Microsoft, Google
+*Standout projects and developments that shaped the AI agent landscape in 2026.*
 
-### 🗓 April 2026 Highlights
-- **Claude Sonnet 5** released April 1 — top coding+reasoning performance
-- **Gemma 4** released April 2 — Google's efficient open models (2B–31B) for consumer/IoT
-- **Qwen3.6-Plus** released April 1 — Alibaba's agentic flagship with 1M ctx
-- **Gemini CLI** released — Google's open-source terminal agent (Apache 2.0)
-- **Veo 3.1 Lite** released — affordable video gen API for developers
-- **Kling 3.0** (Feb 2026) — cinematic realism, native audio, character consistency
-- **Grok 4.20** current xAI flagship — multi-agent "Society of Mind" architecture
+- [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/servers) - Became the universal standard for agent-tool interoperability. Donated to Linux Foundation. ![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=flat-square)
+- [A2A Protocol](https://github.com/google/A2A) - 🆕 Google's Agent-to-Agent protocol enabled cross-framework agent collaboration with 150+ partners. ![GitHub stars](https://img.shields.io/github/stars/google/A2A?style=flat-square)
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic coding tool became the go-to terminal-based coding agent with 80.9% SWE-bench.
+- [Kiro](https://kiro.dev/) - 🆕 AWS launched an autonomous coding agent capable of managing 10 simultaneous development tasks.
+- [Devin 3.0](https://www.cognition.ai/) - 🆕 Evolved to include dynamic re-planning, self-healing code, and legacy codebase migration.
+- [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/) - 🆕 AutoGen + Semantic Kernel merged into unified enterprise agent platform.
+- [OpenAI Codex CLI](https://github.com/openai/codex) - OpenAI entered the agentic coding space with an open-source terminal agent. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
+- [Browser Use](https://github.com/browser-use/browser-use) - Breakthrough in making AI agents interact with the web naturally. ![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square)
+- [Claude Computer Use](https://www.anthropic.com/) - 🆕 Desktop Intelligence let Claude control any software by seeing the screen.
+- [Manus AI](https://manus.im/) - 🆕 General-purpose autonomous agent that can handle research, coding, and complex workflows.
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source AI software engineering platform gained massive adoption. ![GitHub stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square)
+- [Dify](https://github.com/langgenius/dify) - Low-code LLM agent platform reached mainstream adoption. ![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=flat-square)
+- [Cline](https://github.com/cline/cline) - VS Code autonomous coding agent with rapid community growth. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI became essential component of agent architectures. ![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square)
+- [Sora Discontinuation](https://openai.com/) - 🆕 OpenAI shut down Sora (April 2026), signaling strategic pivot to enterprise AI and reasoning.
+- [Kling VIDEO 3.0](https://kling.ai/) - 🆕 Kuaishou's video generation became the leading AI video platform post-Sora.
 
 ---
 
-## XVARY Stock Research
+## 📅 2026 AI Timeline
 
-- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+*Key milestones and events in the AI landscape of 2026.*
 
+| Date | Event | Category |
+|------|-------|----------|
+| **Jan 2026** | AMD Ryzen AI 400 Series unveiled at CES — mainstream AI PCs with 60 TOPS NPU | Hardware |
+| **Feb 2026** | Claude Opus 4.6 released — agent team capabilities | Models |
+| **Feb 2026** | Claude Sonnet 4.6 released — 1M token context, agentic search | Models |
+| **Feb 2026** | Gemini 3.1 Pro released | Models |
+| **Feb 2026** | Qwen3.5 Series launched — native multimodal, agentic coding | Models |
+| **Feb 2026** | Qwen3-Coder-Next released — 80B MoE coding agent model | Models |
+| **Feb 2026** | Cursor updated with 8 parallel agents | Tools |
+| **Feb 2026** | GitHub Copilot expanded agent mode and model access | Tools |
+| **Mar 2026** | Gemini 3.1 Flash Lite released to developers | Models |
+| **Mar 2026** | Mistral Forge launched — custom LLM training platform | Platforms |
+| **Mar 2026** | Microsoft Agent Framework (AutoGen + Semantic Kernel) targets GA | Frameworks |
+| **Mar 2026** | DeepSeek announces new model trained on latest Nvidia chips | Models |
+| **Mar 2026** | MCP 2026 roadmap published — focus on production scaling and governance | Protocols |
+| **Mar 2026** | Sora shutdown announced (app closes April 26) | Events |
+| **Apr 2026** | Claude Mythos Preview — gated cybersecurity research model | Models |
+| **Apr 2026** | Sora app officially shuts down | Events |
+| **Apr 2026** | Gartner predicts 40% of enterprise apps will embed AI agents by end of 2026 | Industry |
+| **2026 (ongoing)** | A2A Protocol grows to 150+ partner organizations | Protocols |
+| **2026 (ongoing)** | 85% of developers regularly use AI coding tools | Industry |
+| **2026 (ongoing)** | Enterprise agentic AI adoption accelerates — "Agents as a Service" emerges | Industry |
+
+---
 
 ## Contributing
 
-Contributions welcome! Read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
-1. Fork this repo
-2. Add your resource in the right section
-3. Submit a PR with description
+## License
 
-Looking for: new tools (2025-2026), corrections, new categories, translations.
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+This list is released under [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-  <br>
-  <strong>Star ⭐ and share if this helped!</strong>
-  <br><br>
-  <a href="https://twitter.com/intent/tweet?text=Awesome%20AI%20Agents%202026%20-%20340%2B%20tools%20across%2020%2B%20categories&url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on X</a> · <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on LinkedIn</a>
-  <br><br>
-  <sub>April 2026 · 340+ resources · Made with love by the community</sub>
+
+**⭐ If you find this list useful, please give it a star! ⭐**
+
+*230+ resources across 17 categories — from foundation models to agent protocols to generative AI.*
+
+Made with ❤️ by [Zijian Ni](https://github.com/Zijian-Ni)
+
+*Last updated: April 2026*
+
 </div>
